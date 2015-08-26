@@ -2,10 +2,7 @@
 
 namespace TestDeploy;
 
-class SayPrivet
+class SayHello2 extends Core
 {
-    public static function world()
-    {
-        return '<h2>Привет, мир!</h2><br><i>from test 2</i>';
-    }
+    protected static $world = 'test2';
 }
